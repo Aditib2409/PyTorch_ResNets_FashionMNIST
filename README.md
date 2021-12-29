@@ -1,6 +1,6 @@
 # Image Classification with ResNets using PyTorch
 
-https://www.icloud.com/iclouddrive/09d07Nk2MQj1lpSXsL0byBavA#batch_images
+![alt text](https://github.com/Aditib2409/PyTorch_ResNets_FashionMNIST/blob/main/batch_images.jpg)
 
 
 ### Dataset - 
