@@ -1,5 +1,7 @@
 # Image Classification with ResNets using PyTorch
 
+For detailed article on this project please refer to the following page on medium - https://medium.com/@aditib2409/image-classification-with-resnets-in-pytorch-eff4f75c741d
+
 ![alt text](https://github.com/Aditib2409/PyTorch_ResNets_FashionMNIST/blob/main/batch_images.jpg)
 
 
