@@ -1,5 +1,8 @@
 # Image Classification with ResNets using PyTorch
 
+https://www.icloud.com/iclouddrive/09d07Nk2MQj1lpSXsL0byBavA#batch_images
+
+
 ### Dataset - 
 Downloaded and trained from the datasets provided by torchvision python module.
 The dataset was divided into train and test sets with number of data points in each as 50,000 and 10,000 respectively. The training set was shuffled before
