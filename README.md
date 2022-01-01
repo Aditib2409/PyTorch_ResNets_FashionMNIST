@@ -40,7 +40,10 @@ was employed which inherently produced a softmax output and hence, an additonal 
 ## Results of the pretrained model -
 
 For optimized hyperparameters, such as batch size and learning rate, the complete dataset was trained for a few independent pairs before initiating the actual training and testing of the model. The training accuracy of the model was plotted as follows:
-Fig2. Training accuracy vs epochThe final test accuracy for the model and the corresponding dataset was around 90.35%. 
+
+[!alt test](
+
+The final test accuracy for the model and the corresponding dataset was around 90.35%. 
 
 ## References - 
 He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 770–778).
