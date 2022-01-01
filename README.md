@@ -13,9 +13,10 @@ The Residual architecture employs the use of shortcut connections that are simpl
 Precondition using the identity mapping as the optimal function. Since, finding perturbations to identity function can be easy reference than to learn the function as a new one altogether, The above formulation of residual mappings can be quickly justified.
 
 ### Residual Block
-y = F(x, {Wi}) + x
+
 ![Fig 1. Residual Block. Source of the image - "Deep Residual Learning for Image Recognition" by Kaiming et.al.,](https://github.com/Aditib2409/PyTorch_ResNets_FashionMNIST/blob/main/Screen%20Shot%202021-12-31%20at%205.16.42%20PM.png)
 
+y = F(x, {Wi}) + x
 Fig1. depicts a simple 2-layer residua block with ReLU activation function. The residual mapping which is the non-linear layer mapping is the output of this block. With multiple blocks stacked together, the changing input or output channels can result in dimension mismatch. And to cater to this challenge, projections (square projection matrix) by the shortcut channels were introduced in the paper. 
 
 ## Network Architecture - 
