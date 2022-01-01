@@ -1,6 +1,6 @@
 # Image Classification with ResNets using PyTorch
 
-[Paper](https://arxiv.org/pdf/1512.03385.pdf) 
+To access the original paper on Deep Residual Learning - [click here](https://arxiv.org/pdf/1512.03385.pdf) 
 
 ![alt text](https://github.com/Aditib2409/PyTorch_ResNets_FashionMNIST/blob/main/batch_images.jpg)
 
