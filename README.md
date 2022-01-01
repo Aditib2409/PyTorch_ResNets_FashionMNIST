@@ -47,10 +47,6 @@ For optimized hyperparameters, such as batch size and learning rate, the complet
 
 The final test accuracy for the model and the corresponding dataset was around 90.35%. 
 
-## References - 
-He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 770–778).
 
 
-### Optimizers
-Both Adam and SGD optimizers were compared and the best optimizer was used during the loss (CrossEntropy) and backward propagation.
 
