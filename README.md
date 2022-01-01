@@ -31,24 +31,17 @@ In this article, the ResNet50 model was implemented to classify the Fashion MNIS
 Additionally the pretrained models are usually trained on large amounts of data and use resources that aren't usually available to everyone. For instance, the ImageNet has around 1.2 million images with around 1000 classes.
 The original ResNet50 model was trained on large datasets with 1000 classes but since the dataset considered here has only 10 classes, the final linear layer was modified before initiating the training phase.
 
-The dataset is divided into a train_set and a test_set with 50,000 and 10,000 datasets respectively. The training was conducted at a learning rate of 0.001 with Adams optimizer and the training accuracy along with the test accuracy was calculated.
+The dataset is divided into a train_set and a test_set with 50,000 and 10,000 datasets respectively. The training was conducted at a learning rate of 0.001 with Adams optimizer and the training accuracy along with the test accuracy was calculated. To compute the loss for back propagation phase, the crossentropy function
+was employed which inherently produced a softmax output and hence, an additonal softmax function was not explicitly mentioned here.
 
-## Results of the pretrained model - 
+## Results of the pretrained model -
 
-The training accuracy of the model was plotted as follows:
-Fig2. Training accuracy vs epochThe final test accuracy for the model and the corresponding dataset was around 90.35%.
+For optimized hyperparameters, such as batch size and learning rate, the complete dataset was trained for a few independent pairs before initiating the actual training and testing of the model. The training accuracy of the model was plotted as follows:
+Fig2. Training accuracy vs epochThe final test accuracy for the model and the corresponding dataset was around 90.35%. 
 
 ## References - 
 He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 770–778).
 
-### Dataset - 
-Downloaded and trained from the datasets provided by torchvision python module.
-The dataset was divided into train and test sets with number of data points in each as 50,000 and 10,000 respectively. The training set was shuffled before
-the training process.
-
-### Model and Hyperparameters -
-A pretrained ResNet50 model was downloaded and the model was used to train the training dataset with learning rate = 0.001 for about 10 epochs with a batch size
-of 100. These hyperparameters were optimized on running the training algorithm multiple times for different sets of batch sizes and learning rates. 
 
 ### Optimizers
 Both Adam and SGD optimizers were compared and the best optimizer was used during the loss (CrossEntropy) and backward propagation.
