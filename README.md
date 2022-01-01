@@ -43,7 +43,7 @@ was employed which inherently produced a softmax output and hence, an additonal 
 
 For optimized hyperparameters, such as batch size and learning rate, the complete dataset was trained for a few independent pairs before initiating the actual training and testing of the model. The training accuracy of the model was plotted as follows:
 
-[!alt test](https://github.com/Aditib2409/PyTorch_ResNets_FashionMNIST/blob/main/Screen%20Shot%202022-01-01%20at%201.56.11%20AM.png)
+[!alt text](https://github.com/Aditib2409/PyTorch_ResNets_FashionMNIST/blob/main/Screen%20Shot%202022-01-01%20at%201.56.11%20AM.png)
 
 The final test accuracy for the model and the corresponding dataset was around 90.35%. 
 
